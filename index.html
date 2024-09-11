@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Complete Responsive Construction Website Design Tutorial</title>
+
+   <!-- Font Awesome CDN Link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--==================== UNICONS ====================-->
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+   <!-- Custom CSS File Link  -->
+   <link rel="stylesheet" href="css/style.css">
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+              publicKey: "-m9qtOOB17T8PdX2T",
+            });
+        })();
+    </script>
+
+</head>
+
+<body>
+   <!-- HEADER -->
+   <header class="header">
+      <a href="#" class="logo">We<span>Build</span></a>
+
+      <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#about">about</a>
+         <a href="#projects">projects</a>
+         <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="info-btn" class="fas fa-info-circle"></div>  
+      </div>
+
+      <form action="" class="search-form">
+         <input type="search" name="" placeholder="Search here..." id="search-box">
+         <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <form action="" class="login-form">
+         <h3>login form</h3>
+         <input type="email" placeholder="Enter your email" class="box">
+         <input type="password" placeholder="Enter your password" class="box">
+         <div class="flex">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+            <a href="#">forgot password?</a>
+         </div>
+         <input type="submit" value="login now" class="btn">
+         <p>don't have an account <a href="#">create one!</a></p>
+      </form>
+   </header>
+
+   <!-- CONTACT-US -->
+   <div class="contact-info">
+      <div id="close-contact-info" class="fas fa-times"></div>
+   
+      <div class="info">
+         <i class="fas fa-phone"></i>
+         <h3>phone number</h3>
+         <p>9545355409</p>
+         <p>9762979098</p>
+      </div>
+   
+      <div class="info">
+         <i class="fas fa-envelope"></i>
+         <h3>email address</h3>
+         <p>mataerectors@gmail.com</p>
+      </div>
+   
+      <div class="info">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>office address</h3>
+         <p>Krishna Niwas, Nandur Vaidya, Post Aswali, Igatpuri, Nashik - 422403</p>
+      </div>
+   
+      <div class="share">
+         <a href="#" class="fab fa-facebook-f"></a>
+         <a href="#" class="fab fa-twitter"></a>
+         <a href="#" class="fab fa-instagram"></a>
+         <a href="#" class="fab fa-linkedin"></a>
+      </div>
+   </div>
+   
+   <!-- HOME -->
+   <section class="home" id="home">
+      <div class="swiper home-slider">
+         <div class="swiper-wrapper">
+   
+            <section class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+               <div class="content">
+                  <h3>Providing Top-Quality Services</h3>
+                  <p>At MATA ERECTORS, we specialize in delivering high-standard structural fabrication and erection services across various industries since 1997.</p>
+                  <a href="#about" class="btn">get started</a>
+               </div>
+            </section>
+   
+            <section class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+               <div class="content">
+                  <h3>Bringing Your Vision to Life</h3>
+                  <p>We have completed projects worldwide, offering innovative solutions and ensuring the highest quality in construction.</p>
+                  <a href="#about" class="btn">get started</a>
+               </div>
+            </section>
+   
+            <section class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+               <div class="content">
+                  <h3>From Concept to Completion</h3>
+                  <p>Our expertise in large-scale industrial projects ensures a seamless process from the design phase to on-site erection and final delivery.</p>
+                  <a href="#about" class="btn">get started</a>
+               </div>
+            </section>
+         </div>
+   
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+      </div>
+   </section>
+   
+   <!-- ABOUT -->
+   <section class="about" id="about">
+      <h1 class="heading">about us</h1>
+
+      <div class="row">
+         <div class="video">
+            <video src="images/about-vid.mp4" loop muted autoplay></video>
+         </div>
+      
+         <div class="content">
+            <h3>We are MATA ERECTORS, delivering top-quality fabrication and erection services since 1997.</h3>
+            <p>MATA ERECTORS is a leading construction company specializing in structural fabrication and erection work. With over 25 years of experience, we have completed projects across India and internationally. Our portfolio includes industrial facilities, large-scale structures, and customized construction solutions.</p>
+            
+            <!-- Button 1: View Online PDF -->
+            <a href="https://www.canva.com/design/DAEXtkak9n4/kcbOXLJbyFKLKBkgMIL1Kw/edit" 
+               target="_blank" class="btn">Show Online PDF</a>
+            
+            <!-- Button 2: Download PDF -->
+            <a href="css/Copy of MATA ERECTORS.pdf" download class="btn">Download PDF</a>
+         </div>
+      </div>
+      
+      <div class="box-container">
+         <div class="box">
+            <h3>25+</h3>
+            <p>years of experience</p>
+         </div>
+      
+         <div class="box">
+            <h3>50+</h3>
+            <p>projects completed</p>
+         </div>
+      
+         <div class="box">
+            <h3>50+</h3>
+            <p>satisfied clients</p>
+         </div>
+      
+         <div class="box">
+            <h3>150+</h3>
+            <p>skilled workers</p>
+         </div>
+      </div>
+      
+   </section>
+ 
+   <section class="projects section" id="projects">
+      <h1 class="heading">our projects</h1>
+      <h3 class="subtitle"> Recent projects</h3>
+      <div class="projects__container box-container">
+         <!-- Project 1 -->
+         <div class="box">
+            <div class="image">
+               <img src="images/project-1.jpg" alt="BPCL Project">
+            </div>
+            <div class="content">
+               <h3>BPCL, Kochin</h3>
+               <p>Coak Handling System </p>
+               <button class="projects__button btn" data-project="1">read more</button>
+            </div>
+         </div>
+   
+         <!-- Project 2 -->
+         <div class="box">
+            <div class="image">
+               <img src="images/project-2.jpg" alt="HEG Project">
+            </div>
+            <div class="content">
+               <h3>HEG, Mandideep</h3>
+               <p>Structural work</p>
+               <button class="projects__button btn" data-project="2">read more</button>
+            </div>
+         </div>
+   
+         <!-- Project 3 -->
+         <div class="box">
+            <div class="image">
+               <img src="images/project-3.jpg" alt="Grasim Project">
+            </div>
+            <div class="content">
+               <h3>Grasim Industries, Bharuch</h3>
+               <p>Structural work</p>
+               <button class="projects__button btn" data-project="3">read more</button>
+            </div>
+         </div>
+   
+         <!-- Project 4 -->
+         <div class="box">
+            <div class="image">
+               <img src="images/project-4.jpg" alt="IGPL Project">
+            </div>
+            <div class="content">
+               <h3>IGPL Limited, Taloja</h3>
+               <p>Fabrication and erection</p>
+               <button class="projects__button btn" data-project="4">read more</button>
+            </div>
+         </div>
+   
+         <!-- Project 5 -->
+         <div class="box">
+            <div class="image">
+               <img src="images/project-5.jpg" alt="Rothe Erde Project">
+            </div>
+            <div class="content">
+               <h3>Rothe Erde, Nasik</h3>
+               <p>Structural fabrication</p>
+               <button class="projects__button btn" data-project="5">read more</button>
+            </div>
+         </div>
+   
+         <!-- Project 6 -->
+         <div class="box">
+            <div class="image">
+               <img src="images/project-6.jpg" alt="Prabhat Dairy Project">
+            </div>
+            <div class="content">
+               <h3>Prabhat Dairy, Shrirampur</h3>
+               <p>Structural work </p>
+               <button class="projects__button btn" data-project="6">read more</button>
+            </div>
+         </div>
+      </div>
+   </section>
+   
+   <!--==================== Modal Popup ====================-->
+   <div id="project-modal" class="modal">
+      <div class="modal__content">
+         <span class="modal__close">&times;</span>
+         <div class="modal__left">
+            <img src="images/project-1.jpg" alt="Project Image" class="modal__img" id="modal-image">
+         </div>
+         <div class="modal__right">
+            <h3 id="modal-title">Project Title</h3>
+            <p id="modal-description">This is the project description. It will be replaced dynamically when you click "Read More".</p>
+         </div>
+      </div>
+   </div>
+    
+   <!-- CONTACT -->
+   <section class="contact" id="contact">
+      <h1 class="heading">contact us</h1>
+   
+      <div class="row">
+         <!-- Google Map on the left -->
+         <div class="map">
+            <iframe
+               src="https://www.google.com/maps?q=19.888601303100586,73.83519744873047&z=17&hl=en&output=embed"
+               width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+         </div>
+   
+         <!-- Contact Form on the right -->
+         <form id="contact-form">
+            <h3>get in touch</h3>
+            <input type="text" id="name" placeholder="Name" class="box" required>
+            <input type="email" id="email" placeholder="Email" class="box" required>
+            <input type="number" id="phone" placeholder="Phone" class="box" required>
+            <textarea id="message" placeholder="Message" class="box" cols="30" rows="10" required></textarea>
+            <input type="submit" value="send message" class="btn">
+         </form>
+      </div>
+   </section>   
+   
+
+   
+   <!-- FOOTER -->
+   <section class="footer">
+      <div class="links">
+         <a class="btn" href="#home">home</a>
+         <a class="btn" href="#about">about</a>
+         <!-- <a class="btn" href="#services">services</a> -->
+         <a class="btn" href="#projects">projects</a>
+         <!-- <a class="btn" href="#pricing">pricing</a> -->
+         <a class="btn" href="#contact">contact</a>
+         <!-- <a class="btn" href="#blogs">blogs</a> -->
+      </div>
+
+      <div class="credit">Created by <span>Ankush Soni</span> | all rights reserved</div>
+   </section>
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+
+</body>
+
+</html>
